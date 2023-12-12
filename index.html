@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Random Number Generator</h1>
+
+    <button onclick="randomNumber()">Generate Random Number</button>
+
+    <p id="p1"></p>
+
+    <script>
+
+        function randomNumber(){
+
+            let x = Math.floor((Math.random() * 1000) + 1);
+
+            document.getElementById("p1").innerHTML = `Random Number: ${x}`;
+        }
+
+    </script>
+    
+</body>
+</html>
