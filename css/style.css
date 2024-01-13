@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(40, 85, 99);
+}
+.container{
+
+
+    margin: 150px;
+}
+
+.btn{
+
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#p1{
+    font-size: 20px;
+}
